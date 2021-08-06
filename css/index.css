@@ -48,8 +48,8 @@ table {
 }
 
 * {
-    box-sizing: border-box;
-    border: 1px blue solid;
+    /* box-sizing: border-box;
+    border: 1px blue solid; */
 }
 
 html, body {
@@ -62,7 +62,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 p {
     line-height: 1.4;
 }
@@ -194,3 +196,37 @@ footer nav a {
 }
 
 /* aboutpage fourimg */
+.twoimg{
+    display: flex;
+    justify-content:space-between ;
+    margin: 3% 0;
+}
+.twoimg img, .twoimgtwo img{
+    max-width: 100%;
+}
+.twoimgcont{
+    width: 45%;
+}
+
+.twoimgtwo{
+    display: flex;
+    justify-content:space-between ;
+    margin: 3% 0;
+}
+
+.twoimgconttwo{
+    width: 45%;
+}
+
+
+
+.letsworktxt{
+    margin-bottom: 4%;
+}
+button{
+    background-color: white;
+    border:1px solid black;
+    border-radius: 5px;
+    margin: 4px 0px;
+    padding: 5px 16px;
+}
